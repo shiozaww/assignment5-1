@@ -4,8 +4,8 @@
  * functions for this assignment.  Make sure to add your name and
  * @oregonstate.edu email address below:
  *
- * Name:
- * Email:
+ * Name: William Shiozawa 
+ * Email: shiozaww@oregonstate.edu
  */
 
 #include <stdio.h>
@@ -308,6 +308,7 @@ int bst_contains(int val, struct bst* bst) {
  *
  *****************************************************************************/
 
+
 /*
  * This is the structure you will use to create an in-order BST iterator.  It
  * is up to you how to define this structure.
@@ -478,4 +479,3 @@ int bst_iterator_next(struct bst_iterator* iter) {
 
   return value;
 }
-
